@@ -32,11 +32,13 @@ subprojects {
 publishing {
     publications {
         maven(MavenPublication) {
-            groupId = 'org.gradle.sample'
-            artifactId = 'library'
-            version = '1.1'
+            groupId = 'com.github.AValverde22' 
+            artifactId = 'android-pdf-viewer' 
+            version = '1.0'
 
-            from components.findByName('java')
+            afterEvaluate {
+                from components.release
+            }
         }
     }
 }
