@@ -36,7 +36,9 @@ publishing {
             artifactId = 'android-pdf-viewer' 
             version = '1.0'
 
-            from components.findByName('release')
+            afterEvaluate {
+                from components.findByName('release') 
+            }
         }
     }
 }
