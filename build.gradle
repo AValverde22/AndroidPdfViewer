@@ -27,12 +27,6 @@ subprojects {
     }
 }
 
-<!--
-Source - https://stackoverflow.com/a/72444502
-Posted by micycle, modified by community. See post 'Timeline' for change history
-Retrieved 2026-04-24, License - CC BY-SA 4.0
--->
-
 afterEvaluate {
     publishing {
         publications {
