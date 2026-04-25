@@ -39,11 +39,11 @@ Licensed under Apache License 2.0.
 
 Add to _build.gradle_:
 
-`implementation 'com.github.barteksc:android-pdf-viewer:3.2.0-beta.1'`
+`implementation 'com.github.AValverde22:AndroidPdfViewer:1.0.0'`
 
-or if you want to use more stable version:
- 
-`implementation 'com.github.barteksc:android-pdf-viewer:2.8.2'`
+Add to _settings.gradle_:
+
+`maven { url 'https://jitpack.io' }`
 
 Library is available in jcenter repository, probably it'll be in Maven Central soon.
 
